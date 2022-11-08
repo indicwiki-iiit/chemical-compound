@@ -26,6 +26,7 @@ The following ordered list will give an idea as to what were the stages to compl
 
 ## Datasets -
 - [CompoundCID](https://github.com/indicwiki-iiit/chemical-compound/blob/main/compoundCID.csv)- This file contains the compound ids of compounds
+- [PubChem_compound_list](https://github.com/indicwiki-iiit/chemical-compound/blob/main/PubChem_compound_list.csv) - This file contains the basic informations of chemical compounds.
 
 ## Generating Articles -
 - [DataExtraction](https://github.com/indicwiki-iiit/chemical-compound/blob/main/DataExtraction.py) - This file contains code for data extraction from website.
