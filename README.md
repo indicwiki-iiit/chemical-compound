@@ -20,7 +20,7 @@ The following ordered list will give an idea as to what were the stages to compl
 
 ##  Folders -
 - `full_length_articles`: Contains all the compound files that have been used for this project.
-- `compound` - Contains first 50 articles.
+- `compound` : Contains first 50 articles.
 - `Selenium`: Contains browser setup for the project.
 - `Template`: Contains the jinja template for the XML generation of a chemical compound article.
 
