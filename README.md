@@ -1,8 +1,8 @@
 # Chemical-Compound
 Generating Wikipedia Articles on 10k+ chemical compounds in Hindi.
 
-## Stages of the Poject -
-The following ordered list will give an idea as to what were the stages to complete the project - 
+## Stages of the Project -
+The following ordered list will give an idea as to what were the stages to complete the project -
 
 - [x] Scrape Data from Web sources.
 - [x] Clean and Format the data.
@@ -20,16 +20,15 @@ The following ordered list will give an idea as to what were the stages to compl
 
 ##  Folders -
 - `full_length_articles`: Contains all the compound files that have been used for this project.
+- `compound` - Contains first 50 articles.
 - `Selenium`: Contains browser setup for the project.
 - `Template`: Contains the jinja template for the XML generation of a chemical compound article.
 
 ## Datasets -
-- [CompoundCID](https://pages.github.com/)- This file contains the compound ids of compounds
+- [CompoundCID](https://github.com/indicwiki-iiit/chemical-compound/blob/main/compoundCID.csv)- This file contains the compound ids of compounds
 
 ## Generating Articles -
-- [DataExtraction]() - This file contains code for data extraction from website.
-- [article_generation]() -This file contains code to accumulate all the articles in a single xml file.
-- [final_xmlDUMP]() - This is a xml file which contains 10k+ articles.
-- [XMLDump]() - This is a xml file contains first 50 test articles.
-
-
+- [DataExtraction](https://github.com/indicwiki-iiit/chemical-compound/blob/main/DataExtraction.py) - This file contains code for data extraction from website.
+- [article_compilation](https://github.com/indicwiki-iiit/chemical-compound/blob/main/article_compilation.py) -This file contains code to accumulate all the articles in a single xml file.
+- [final_xmlDUMP](https://github.com/indicwiki-iiit/chemical-compound/blob/main/final_xmlDUMP.xml) - This is a xml file which contains 10k+ articles.
+- [XMLDump](https://github.com/indicwiki-iiit/chemical-compound/blob/main/XMLDump.xml) - This is a xml file contains first 50 test articles.
